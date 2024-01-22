@@ -1,0 +1,188 @@
+@media (max-width: 565px){
+   h1{
+    font-size: 2.1rem !important;
+  }
+  .slick-slide img {
+    width: 100% !important;
+  }
+
+  .time-line{
+    display: none;
+  }
+
+  .career-card{
+    padding: 0 !important;
+  }
+
+  .reverse-img img{
+    width: 100% !important;
+    margin-bottom: 24px;
+  }
+
+  .hr-line{
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .service-page-list{
+   display: flex;
+   flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-box{
+    padding: 15px !important;
+  }
+
+  .service-page-list a{
+    flex: 100%;
+  }
+
+  .service-page-section-new{
+    padding: 1.5rem 1rem !important;
+  }
+
+  /* .nav-menus-wrapper{
+    display: none;
+  } */
+
+  .portfolio-items{
+    padding-right: 20px !important;
+  }
+  .why-section{
+    margin: 5px !important;
+  }
+  .question{
+    display: none;
+  }
+  .hr-droid{
+    margin-bottom: 30px;
+  }
+  .cta-btn{
+    justify-content: start !important;
+    margin-bottom: 20px;
+  }
+
+  .about{
+    margin-top: 2em;
+}
+
+.normal-heading, .cta-head, .bold-heading, h2{
+  font-size: 2rem !important;
+}
+
+.service-tools .slide{
+  width: 110px !important;
+}
+
+.service-boxes{
+  padding: 0 !important;
+}
+
+.white-text{
+  flex-direction: column-reverse !important;
+}
+
+.ext-ser{
+  flex-direction: column !important;
+}
+
+.top-ser{
+  min-height: 10px !important;
+}
+
+.blog-box{
+  width: 357px !important;
+}
+
+}
+
+
+@media (max-width: 768px){
+  .hero{
+    margin-top: 5%;
+  }
+
+}
+@media (max-width: 982px){
+  .cssbuttons-io-button-two{
+    display: none !important;
+  }
+  .cta-btn{
+    display: flex;
+    justify-content: start;
+  }
+
+  
+  .verse-img{
+    width: 100% !important;
+    margin-bottom: 22px;
+  }
+  
+  
+}
+
+
+
+@media (min-width: 565px) {
+
+  .service-page-list{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .service-page-list a{
+    flex: 50%;
+    cursor: text !important;
+  }
+
+  h1{
+    font-size: 3.2rem !important;
+  }
+  .hero{
+    margin-top: 3%;
+  }
+
+  .service-hero{
+    margin-top: 6rem !important;
+    margin-bottom: 4rem;
+  }
+
+  .about-img{
+    padding-right: 40px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .megamenu-list {
+    display: none !important;
+  }
+  .product-dropdown{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .why-work{
+    margin-left: 15% !important;
+}
+
+}
+
+@media (max-width: 992px) {
+  .all-dropdown {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .career-detail{
+    display: block !important;
+}
+
+
+}
+

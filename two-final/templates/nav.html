@@ -1,0 +1,324 @@
+{% load static %}
+
+  <!-- navbar start -->
+<header class="header_area">
+    <div class="main_header_area animated">
+      <div class="container">
+        <nav id="navigation1" class="navigation">
+          <!-- Logo Area Start -->
+          <div class="nav-header">
+            <a href="/"><img class="logo" src="{% static 'assets/images/testsync.png' %}" alt="TestSync Global"> </a> 
+            <div class="nav-toggle"></div>
+          </div>
+
+          <div class="nav-menus-wrapper">
+            <ul class="nav-menu align-to-right">
+
+              <li><a href="{% url 'Main:index' %}">Home</a></li>
+               <li><a href="{% url 'Main:about' %}">Company</a></li>
+
+              <!--<li><a href="#">Company</a>-->
+
+              <!--  <div class="megamenu-panel">-->
+              <!--    <div data-aos="fade-down" class="product-dropdown">-->
+
+
+              <!--      <ul class="megamenu-list list-col-4">-->
+                      <!-- <li><a href="{% url 'Main:blog' %}" >Blog</a></li> -->
+              <!--        <li><a href="{% url 'Main:career' %}" >Career</a></li>-->
+              <!--        <li><a href="{% url 'Main:about' %}" >About Us</a></li>-->
+                      <!--<li><a href="#" >Frameworks</a></li>-->
+              <!--      </ul>-->
+
+              <!--      <div class="row all-dropdown">-->
+
+              <!--        <div class="col-md-3 pt-4 about-desc pr-3">-->
+              <!--          <h4> <span class="bold-heading"><span class="text-underline">ABOUT US</span></h4>-->
+              <!--          <p>TestSync Global help our clients achieve their software testing goals with our expertise and commitment to quality.-->
+              <!--          </p>-->
+                        <!-- <a href="/about-us.html">Read More</a> -->
+              <!--        </div>-->
+
+              <!--        <div class="row col-md-9 pt-0 pl-3 flex-wrap">-->
+
+
+                        <!-- <a href="{% url 'Main:blog' %}" class="col-lg-4 col-6 nav-box">
+              <!--            <div class="nav-img">-->
+              <!--              <img class="mb-4" src="{% static 'assets/images/blog.png' %}" alt="">-->
+              <!--            </div>-->
+              <!--            <div class="nav-desc">-->
+              <!--              <h6>Blog</h6>-->
+              <!--              <p>Efficient, streamlined testing process </p>-->
+              <!--            </div>-->
+              <!--          </a> -->-->
+
+
+                        <!--<a href="{% url 'Main:career' %}" class="col-lg-4 col-6 nav-box">-->
+                        <!--  <div class="nav-img">-->
+                        <!--    <img class="mb-4" src="{% static 'assets/images/career.png' %}" alt="">-->
+                        <!--  </div>-->
+                        <!--  <div class="nav-desc">-->
+                        <!--    <h6>Career</h6>-->
+                        <!--    <p>Create Impactful Solutions Together </p>-->
+                        <!--  </div>-->
+                        <!--</a>-->
+
+
+              <!--          <a href="{% url 'Main:about' %}" class="col-lg-4 col-6 nav-box">-->
+              <!--            <div class="nav-img">-->
+              <!--              <img class="mb-4" src="{% static 'assets/images/about.png' %}" alt="">-->
+              <!--            </div>-->
+              <!--            <div class="nav-desc">-->
+              <!--              <h6>About Us</h6>-->
+              <!--              <p>Committed to Excellence </p>-->
+              <!--            </div>-->
+              <!--          </a>-->
+
+                        <!-- <a href="#" class="col-lg-4 col-6 nav-box">
+              <!--            <div class="nav-img">-->
+              <!--              <img class="mb-4" src="{% static 'assets/images/framework.png' %}" alt="">-->
+              <!--            </div>-->
+              <!--            <div class="nav-desc">-->
+              <!--              <h6>Frameworks</h6>-->
+              <!--              <p>Efficient, streamlined testing process </p>-->
+              <!--            </div>-->
+              <!--          </a> -->-->
+
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--</li>-->
+
+
+
+
+
+              <li><a href="{% url 'Main:service' %}">Services</a>
+                <div class="megamenu-panel">
+                  <div data-aos="fade-down" class="product-dropdown">
+            
+                    <ul class="megamenu-list list-col-4">
+                      <li><a href="{% url 'Main:functional' %}" >FUNCTIONAL TESTING</a></li>
+                      <li><a href="{% url 'Main:performance' %}" >PERFORMANCE ENGINEERING & TESTING</a></li>
+                      <li><a href="{% url 'Main:application' %}" >APPLICATION SECURITY TESTING</a></li>
+                      <li><a href="{% url 'Main:mobile' %}" >MOBILE APP TESTING SERVICES</a></li>
+                      <li><a href="{% url 'Main:data' %}" >DATA ANALYTICS TESTING SERVICES</a></li>
+                      <li><a href="{% url 'Main:cloud' %}" >CLOUD TESTING SERVICES</a></li>
+                      <li><a href="{% url 'Main:cx' %}" >CX TESTING SERVICES</a></li>
+                      <li><a href="{% url 'Main:automation' %}" >AUTOMATION TESTING SERVICES</a></li>
+                      <li><a href="{% url 'Main:game' %}" >GAME TESTING​ SERVICES</a></li>
+                      <li><a href="{% url 'Main:integration' %}" >INTEGRATION AND TESTING (I&T)</a></li>
+                      <li><a href="{% url 'Main:iot' %}" >IoT TESTING</a></li>
+                      <li><a href="{% url 'Main:devops' %}" >DEVOPS TESTING SERVICES</a></li>
+                      <li><a href="{% url 'Main:sales' %}" >SALES-FORCE TESTING</a></li>
+                      <li><a href="{% url 'Main:rpa' %}" >RPA SERVICES</a></li>
+                      <li><a href="{% url 'Main:accessibility' %}" >ACCESSIBILITY TESTING</a></li>
+                    </ul>
+            
+                    <div class="row all-dropdown">
+            
+                      <div class="col-md-3 pt-4 about-desc pr-3">
+                        <h4> <span class="bold-heading"><span class="text-underline">OUR SERVICES</span></h4>
+                        <p>As a global software testing and quality assurance company, we offer comprehensive solutions
+                          to meet all of your software testing and quality assurance needs in a single destination.</p>
+                        <!-- <a href="#">Read More</a> -->
+                      </div>
+            
+                      <div class="row col-md-9 pt-0 pl-3 flex-wrap">
+            
+            
+                        <a href="{% url 'Main:functional' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/Functionality-Testing.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>FUNCTIONAL TESTING</h6>
+                            <p>Ensure feature functionality </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:performance' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/Performance-Tests.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>PERFORMANCE ENGINEERING & TESTING</h6>
+                            <p>Optimize system performance </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:application' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/Application-Testing-using-Cloud-Based-Tools.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>APPLICATION SECURITY TESTING</h6>
+                            <p>Protect against vulnerabilities </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:mobile' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/mobile-app-testing.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>MOBILE APP TESTING SERVICES</h6>
+                            <p>Test app functionality compatibility </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:data' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/data.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>DATA ANALYTICS TESTING SERVICES</h6>
+                            <p>Verify data accuracy completeness </p>
+                          </div>
+                        </a>
+                        
+            
+                        <a href="{% url 'Main:cloud' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/Cloud-Application-Testing.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>CLOUD TESTING SERVICES</h6>
+                            <p>Test cloud-based applications</p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:cx' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/User-Experience-Testing.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>CX TESTING SERVICES</h6>
+                            <p>User Experience Testing </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:game' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/game.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>GAME TESTING​ SERVICES</h6>
+                            <p>Ensure gameplay experience quality </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:automation' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/Automated-Analytics-Testing.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>AUTOMATION TESTING SERVICES</h6>
+                            <p>Streamline test execution process </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:integration' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/Integration.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>INTEGRATION AND TESTING (I&T)</h6>
+                            <p>Test system integration </p>
+                          </div>
+                        </a>
+            
+            
+                        <a href="{% url 'Main:iot' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/internet-of-things.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>IoT TESTING</h6>
+                            <p>Verify IoT device functionality </p>
+                          </div>
+                        </a>
+                        
+                                                <a href="{% url 'Main:devops' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/devops.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>DEVOPS TESTING</h6>
+                            <p>Continuous testing for seamless delivery </p>
+                          </div>
+                        </a>
+                        <a href="{% url 'Main:sales' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/sales.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>SALES-FORCE TESTING</h6>
+                            <p>Ensure robustness of CRM applications </p>
+                          </div>
+                        </a>
+
+                        <a href="{% url 'Main:rpa' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/industrial-robot.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>RPA TESTING</h6>
+                            <p>Validate automation workflows and scripts</p>
+                          </div>
+                        </a>
+                        <a href="{% url 'Main:accessibility' %}" class="col-lg-4 col-6 nav-box">
+                          <div class="nav-img">
+                            <img class="mb-4" src="{% static 'assets/images/Accessibility-Testing.png' %}" alt="">
+                          </div>
+                          <div class="nav-desc">
+                            <h6>ACCESSIBILITY TESTING</h6>
+                            <p>Enhance user experience for all </p>
+                          </div>
+                        </a>
+            
+            
+            
+                      </div>
+            
+                      
+                    </div>
+            
+                  </div>
+              </li>
+              
+            <li><a href="{% url 'Main:career' %}">Career</a>
+
+              <li><a href="{% url 'Main:contact' %}">GET IN TOUCH</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <!-- Search panel Start -->
+          <a href="{% url 'Main:contact' %}" class="nav-btn">
+            <button class="cssbuttons-io-button-two"> Let's Talk
+              <div class="icon">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                    fill="currentColor"></path>
+                </svg>
+              </div>
+            </button>
+          </a>
+          <!-- Main Menus Wrapper -->
+
+        </nav>
+      </div>
+    </div>
+  </header>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1c1c1c;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>You've got a New Application Entry for {{job}}</h1>
+
+<table id="customers">
+
+  <tr>
+    <td> Name:</td>
+    <td>{{name}}</td>
+  </tr>
+  <tr>
+    <td> Applied:</td>
+    <td>{{job}}</td>
+  </tr>
+  <tr>
+    <td>Experience:</td>
+    <td>{{experience}}</td>
+  </tr>
+  <tr>
+      <td>Email:</td>
+      <td>{{email}}</td>
+    </tr>
+    <tr>
+        <td>Phone no:</td>
+        <td>{{phone_no}}</td>
+    </tr>
+    <tr>
+      <td>Time:</td>
+      <td>{{date_added}}</td>
+    </tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Search Engine -->
+  <title>{{ post.title }}</title>
+  <meta name="description" content="{{ post.meta_description }}">
+  <meta name="image" content="/media/{{ post.photo }}">
+  <meta name="keywords" content="{{ post.meta_keywords }}">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="{{ post.title }}">
+  <meta itemprop="name" content="{{ post.meta_description }}">
+  <meta itemprop="description" content="{{ post.meta_description }}">
+  <meta itemprop="image" content="/media/{{ post.photo }}">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="{{ post.photo }}">
+  <meta name="twitter:title" content="{{ post.meta_title }}">
+  <meta name="twitter:description" content="{{ post.meta_description }}">
+  <meta name="twitter:image:src" content="/media/{{ post.photo }}">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="{{ post.meta_title }}">
+  <meta name="og:description"content="{{ post.meta_description }}">
+  <meta name="og:image" content="/media/{{ post.photo }}">
+   <!-- <link rel="stylesheet" href="css/aos.css"> -->
+   <link rel="icon" type="image/x-icon" href="{% static 'assets/images/icon.png' %}">
+   <link rel="stylesheet" href="{% static 'css/about.css' %}">
+   <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+   <link rel="stylesheet" href="{% static 'css/nav-footer.css' %}">
+   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+   <link rel="stylesheet" href="{% static 'css/service.css' %}">
+   <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+   <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+   <script src="https://kit.fontawesome.com/05113fe05e.js" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+   <link href="https://www.cssscript.com/demo/sticky.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+     crossorigin="anonymous" />
+
+</head>
+<body>
+
+
+
+{% include "nav.html" %}
+
+
+<div class="container my-5 p-4">
+
+  <div class="post">
+  <div class="post-img mb-3">
+  <img src="/media/{{ post.photo }}" alt="">
+  </div>
+
+    <h1 class="title mb-3">{{ post.title }}</h1>
+
+    <p class="post-date">
+
+    Posted at {{ post.date_added }}
+    </p>
+
+
+    <p>{{ post.body|safe}}</p>
+
+    <hr>
+
+  </div>
+
+</div>
+
+{% include "footer.html" %}
+
+  
+</body>
+</html>

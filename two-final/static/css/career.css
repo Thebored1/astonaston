@@ -1,0 +1,82 @@
+.why-work{
+    max-width: 1000px;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+}
+
+.why-work-box{
+    display: flex;
+    gap: 20px;
+}
+.why-work-box img{
+    display: flex;
+    gap: 20px;
+    width: 55px;
+}
+
+.why-desc{
+    width: 70%;
+}
+
+.why-desc h6{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.career-detail{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+
+[type="file"]::-webkit-file-upload-button {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: all 1s ease;
+  }
+  
+  [type="file"]::-webkit-file-upload-button:hover {
+    background: #fff;
+    border: 2px solid #535353;
+    color: #000;
+  }
+
+  .job-btn{
+    padding: 10px 30px;
+    background-color: #282822;
+    color: white;
+  }
+  .job-btn:hover{
+    color: rgb(255, 255, 255) !important;
+  }
+
+.uplaod-text{
+  font-size: 15px !important;
+    margin-top: 10px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.user-box-file{
+  color: white;
+}

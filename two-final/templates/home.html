@@ -1,0 +1,12 @@
+<h1>asdadf</h1>
+{% load static %}
+<img src="{% static 'alzi-20200610-ha.jpg' %}" alt="My image">
+
+{% for q in q %}
+<img src="media/{{ q.photo }}" alt="">
+<li>{{ q.name }}</li> 
+
+{% endfor %}
+
+"{% static '
+' %}"

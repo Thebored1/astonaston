@@ -1,0 +1,34 @@
+.about-txt p{
+    color: black;
+}
+
+.about{
+    margin-top: 5em;
+}
+
+.about-img img{
+    width: 100%;
+    /* height: 400px; */
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.teams{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.team-img{
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 5%;
+    filter: grayscale();
+}
+
+.team-text{
+    padding-left: 50px;
+    align-items: center;
+}

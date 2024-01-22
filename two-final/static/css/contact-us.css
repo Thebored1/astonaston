@@ -1,0 +1,183 @@
+.contact-boxes{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-desc{
+    color: #282828;
+}
+.contact-desc p{
+    color: #282828;
+    margin-bottom: 5px;
+}
+
+.contact-border{
+    border: solid 2px;
+    border-radius: 10px;
+
+}
+
+.contact-desc a{
+    width: 100% !important;
+    color: #282828;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.contact{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form-box{
+    display: flex;
+    align-items: center;
+    background-color: #282828 !important;
+    padding: 30px !important;
+    border-radius: 0px 8px 8px 0px;
+    background: url(/static/assets/images/background-lines-thick.png);
+    background-size: cover !important;
+    background-position: 200px 300px;
+    background-repeat: no-repeat;
+
+}
+
+.user-box-file input{
+    width: 43%;
+}
+
+.login-box {
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.login-box h2, p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login-box h2{
+    color: white;
+    font-size: 2em;    
+}
+  
+  .login-box p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+    width: 45%;
+  }
+
+  .text-area{
+    width: 100% !important;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent !important;
+  }
+  
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .text-are{
+    width: 94% !important;
+  }
+
+  textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: white;
+    height: 4em !important;
+    margin-top: -20px !important;
+  }
+  
+  .login-box .user-box  input:focus ~ label,
+  .login-box .user-box  input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  
+  .login-box p:last-child {
+    color: #aaa !important;
+    font-size: 14px;
+  }
+  
+  .login-box a.a2 {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .login-box a.a2:hover {
+    background: transparent;
+    color: #aaa;
+    border-radius: 5px;
+  }
+
+  .contact-button{
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+
+  .contact-social a{
+    font-size: 20px !important;
+    color: #282828;
+    padding-bottom: 20px;
+    border: solid 1px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .contact-social a:hover{
+    background-color: #282828;
+    color: white !important;
+    transition: 0.3s;
+  }
+
+  .contact-social {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px !important;
+  }
